@@ -1,0 +1,44 @@
+
+<div class="modal fade take-photo-modal result-modal" id="takePhotoResultModal" tabindex="-1" role="dialog" aria-labelledby="takePhotoResultModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered take-photo-modal result-modal">
+
+        <div class="modal-content take-photo-modal result-modal">
+            <button type="button" class="close btn-close-small-modal result-modal" data-bs-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close camera">
+                <span aria-hidden="true">X</span>
+            </button>
+            <div class="modal-header take-photo-modal result-modal">
+               <div class="w-100">
+                    <div class="modal-title take-photo-modal result-modal title-xxxlarge36 wheight900 w-100 mt-1 mb-5 text-center-ic" id="takePhotoResultModalLabel">
+                    </div>
+                    <div class="text-xlarge">
+                        Alege poza cea mai clară
+                    </div>
+               </div>               
+            </div>
+
+
+            <div class="modal-body take-photo-modal result-modal">
+
+                <div id="photoPicture" class="slider">
+                </div>
+
+
+                @*  <div type="hidden" id="photoCategory"></div> *@
+
+
+            </div>
+            <div class="modal-footer take-photo-modal result-modal">
+                <div class="btn-group-custom take-photo-modal result-modal">
+                    <button type="button" class="btn-modal close take-photo-modal" data-bs-dismiss="modal" data-toggle="tooltip" title="Close camera">
+                        <span class="pr-2"><i class="far fa-times-circle"></i></span>
+                        <span>Close</span>
+                    </button>
+                    <button id="btn-modal-take-photo-ok" type="button" class="btn-modal take-photo-modal" data-toggle="tooltip" title="Leave it to us to fill in the fields">
+                        <span class="pr-2"><i class="fas fa-thumbs-up"></i></span>
+                        <span>Continue</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

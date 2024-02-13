@@ -1,0 +1,111 @@
+
+.container-slide-show.slide-gallery {
+    position: relative;
+    margin-top:20px;
+}
+
+.mySlides.slide-gallery {
+    display: none;   
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.btn-slide-group.slide-gallery {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.prev-image.slide-gallery,
+a.next-image.slide-gallery {
+    position: absolute;
+    top: -70px;
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 26px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    color: #00a5e3;
+}
+
+   a.next-image.slide-gallery {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    a.prev-image.slide-gallery:hover,
+    a.next-image.slide-gallery:hover {
+        color:#FFFFFF;
+    }
+
+.numbertext.slide-gallery {
+    color: #f2f2f2;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 30px;
+}
+
+/* Container for image text */
+.caption-container.slide-gallery, .slide-title.slide-gallery {
+    height: 25px;
+    text-align: center;
+    background-color: #00a5e3;
+    padding: 2px 16px;
+    color: white;
+    font-size:14px;
+    font-weight:500;
+}
+
+.caption-container.slide-gallery {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.slide-title.slide-gallery {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.row.slide-gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row.slide-gallery {
+    margin: 10px 0px 0px 0px !important;
+}
+
+.thumbnail-container-slide {
+    float: left;
+    width: 16.66%;
+}
+
+.image-thumbnail.slide-gallery {
+    opacity: 0.6;
+}
+
+.image-thumbnail.slide-gallery.active-thumbnail,.image-thumbnail:hover.slide-gallery {
+    opacity: 1;
+}
+
+.image-container-slide.slide-gallery, .image-thumbnail.slide-gallery {
+    width:100%;
+    width: -webkit-fill-available;   
+}
+.image-container-slide.slide-gallery {
+   /* border-radius: 10px 10px 0px 0px;*/
+}
+
+.image-thumbnail.slide-gallery {
+    height: auto;
+    margin: 0px 3px;
+}
+
+
+
